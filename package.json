@@ -1,0 +1,23 @@
+{
+  "name": "tailwind-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dylson14/Tailwind-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dylson14/Tailwind-Practice/issues"
+  },
+  "homepage": "https://github.com/Dylson14/Tailwind-Practice#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
