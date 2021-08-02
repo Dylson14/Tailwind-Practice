@@ -32796,6 +32796,8 @@ video {
 .btn{
   cursor: pointer;
   border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(254, 226, 226, var(--tw-bg-opacity));
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-top: 0.5rem;
