@@ -4,17 +4,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary:'#FF6363',
+        primary: "#C5EFFC",
         secondary: {
-          100: '#E2E2D5',
-          200: '#888883',
-        }
-
-      }
+          100: "#E2E2D5",
+          200: "#888883",
+        },
+      },
+      fontFamily: {
+        body: ["Roboto"],
+      },
     },
+    variants: {
+      extend: {},
+    },
+    plugins: [],
   },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-}
+};
